@@ -14,6 +14,7 @@ Summary:	WMTV is a WindowMaker dock.app that controls TV
 URL:		http://www.student.uwa.edu.au/~wliang
 BuildRequires:	pciutils-devel xpm-devel
 BuildRequires:	X11-devel
+BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description
 wmtv is a WindowMaker dock.app that controls TV Cards which are

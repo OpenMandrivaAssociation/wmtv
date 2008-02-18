@@ -10,7 +10,7 @@ Source1:	wmtvrc.europe
 Source2:	wmtv-master.xpm
 License: 	GPLv2+
 Group:		Video
-Summary:	WMTV is a WindowMaker dock.app that controls TV 
+Summary:	WindowMaker dock.app that controls TV 
 URL:		http://www.student.uwa.edu.au/~wliang
 BuildRequires:	pciutils-devel xpm-devel
 BuildRequires:	X11-devel

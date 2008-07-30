@@ -1,6 +1,6 @@
 %define name	wmtv
 %define version	0.6.5
-%define release %mkrel 9
+%define release %mkrel 11
  
 Name: 		%{name}
 Version: 	%{version}

@@ -1,7 +1,7 @@
 %define name	wmtv
 %define version	0.6.5
-%define release %mkrel 13
- 
+%define release %mkrel 14
+
 Name: 		%{name}
 Version: 	%{version}
 Release:	%{release} 
@@ -12,8 +12,12 @@ License: 	GPLv2+
 Group:		Video
 Summary:	WindowMaker dock.app that controls TV 
 URL:		http://www.student.uwa.edu.au/~wliang
-BuildRequires:	pciutils-devel xpm-devel
-BuildRequires:	X11-devel
+BuildRequires:	libx11-devel
+BuildRequires:	libxpm-devel
+BuildRequires:	libxext-devel
+BuildRequires:	libxxf86dga-devel
+BuildRequires:	libxxf86vm-devel
+BuildRequires:	libxt-devel
 BuildRoot: 	%{_tmppath}/%{name}-%{version}
 
 %description

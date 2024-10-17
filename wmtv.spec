@@ -11,7 +11,7 @@ Source2:	wmtv-master.xpm
 License: 	GPLv2+
 Group:		Video
 Summary:	WindowMaker dock.app that controls TV 
-URL:		http://www.student.uwa.edu.au/~wliang
+URL:		https://www.student.uwa.edu.au/~wliang
 BuildRequires:	libx11-devel
 BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel

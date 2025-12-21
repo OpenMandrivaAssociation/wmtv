@@ -12,6 +12,7 @@ License: 	GPLv2+
 Group:		Video
 Summary:	WindowMaker dock.app that controls TV 
 URL:		https://www.student.uwa.edu.au/~wliang
+BuildRequires:	make
 BuildRequires:	libx11-devel
 BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel
